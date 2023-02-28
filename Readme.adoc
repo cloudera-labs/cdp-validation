@@ -1,6 +1,8 @@
 = CDP Certification Process
 Puneet Joshi <puneetjoshi@cloudera.com>; Pannag Katti <pkatti@cloudera.com>
 
+:toc:
+
 1.0, Feb 22, 2023
 
 This document provides the details for Partners who are willing to integrate and validate their product (ISV) and hardware (IHV) on Cloudera Data Platform(CDP). Cloudera Data Platform  is a single platform that has two form factors CDP Public and CDP Private cloud. 
@@ -179,3 +181,11 @@ After the successful registration of the environment of Public Cloud, Cloudera t
 
 
 ---
+*Authors*
+
+Puneet Joshi puneetjoshi@cloudera.com
+
+Pannag Katti pkatti@cloudera.com
+
+version-1.0, Feb 22, 2023
+
