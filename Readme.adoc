@@ -30,11 +30,11 @@ _(*Skip the below steps and jump to <<partner_portal_access>> if you are already
 
 https://sso.cloudera.com/
 
-image::images/Register_to_SSO.png[]
+image::resources/Register_to_SSO.png[]
 
 NOTE: Make sure registration is done by using an official email id.
 
-image::images/Registration_Details.png[]
+image::resources/Registration_Details.png[]
 
 [.underline]*Step 2:* An activation code will be sent over the email. Please verify each registered email id by following the steps mentioned in that email.
 
@@ -46,7 +46,7 @@ image::images/Registration_Details.png[]
 
 https://www.cloudera.com/partners/membership-application.html
 
-image::images/Partner_Portal_Apply.png[]
+image::resources/Partner_Portal_Apply.png[]
 
 _If prompted, login with your Cloudera SSO account._
 
@@ -55,11 +55,11 @@ _If prompted, login with your Cloudera SSO account._
 
 * If you are an **ISV Partner** select “Software Vendor/ISV” in the Primary Line Of Business field. 
 
-image::images/Select_ISV.png[]
+image::resources/Select_ISV.png[]
 
 * If you are an **IHV Partner** select “Hardware Vendor/IHV” in the Primary Line Of Business field. 
 
-image::images/Select_IHV.png[]
+image::resources/Select_IHV.png[]
 
 
 [.underline]*Step 3:* Submit the application.
@@ -76,7 +76,7 @@ https://cloudera-portal.force.com/clouderapartners/s/
 
 . Navigate to *_Technical_* dropdown and select *_Developer License Request_*.
 +
-image::images/Dropdown_Portal.png[]
+image::resources/Dropdown_Portal.png[]
 
 . Fill in the required details:
 +
@@ -110,7 +110,7 @@ https://cloudera-portal.force.com/clouderapartners/s/
 
 . Navigate to *Technical* dropdown and select *Product Certification*.
 +
-image::images/ISV_Cert_Reg.png[]
+image::resources/ISV_Cert_Reg.png[]
 
 . Fill in the required fields and submit the application.
 
