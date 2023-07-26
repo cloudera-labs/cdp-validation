@@ -111,6 +111,8 @@ function generateZipReport() {
     rm log_query.zip
 
     hdfs dfs -copyFromLocal "tpcds-${SCALE}GB-${ID}.zip" "${FINAL_REPORT_LOCATION}/tpcds-${SCALE}GB-${ID}.zip"
+
+    echo "All the artifacts have been saved to HDFS Location: ${FINAL_REPORT_LOCATION}/tpcds-${SCALE}GB-${ID}.zip"
 }
 
 # --- SCRIPT START ---
@@ -134,3 +136,5 @@ setupRun
 runBenchmark
 
 generateZipReport
+
+echo "Script execution is complete"
