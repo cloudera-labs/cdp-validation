@@ -80,7 +80,7 @@ function runBenchmark() {
 
     # range of queries
     START=1
-    END=5
+    END=99
     REPEAT=1
     for (( QUERY_NUM = START; QUERY_NUM <= END; QUERY_NUM++ )); do
         for (( j = 0; j < REPEAT; j++ )); do
@@ -130,3 +130,5 @@ setupRun
 runBenchmark
 
 generateZipReport
+
+echo "Script execution is complete."
