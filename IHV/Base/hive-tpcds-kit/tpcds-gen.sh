@@ -104,7 +104,10 @@ hadoop fs -chmod -R 777  ${DIR}/${SCALE}
 echo "TPC-DS text data generation complete."
 
 # Assuming we are running the default hive/beeline connection (beeline-site.xml) and as the user
+# EDIT THIS COMMAND AS PER YOUR ENVIRONMENT#
+#-------------------------------------------#
 HIVE="hive"
+#-------------------------------------------#
 
 # Create the text/flat tables as external tables. These will be later be converted to ORCFile.
 echo "Loading text data into external tables."
