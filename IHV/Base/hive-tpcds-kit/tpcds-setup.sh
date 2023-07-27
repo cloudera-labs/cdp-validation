@@ -121,7 +121,10 @@ if [ $? -ne 0 ]; then
 fi
 
 # Assuming we are running the default hive/beeline connection (beeline-site.xml) and as the user
-HIVE="hive"
+#### Edit the connection string for beeline as per your cluster
+#------------------------------
+HIVE="beeline -u \"jdbc:hive2://<hive-server>:10000/default\" "
+#------------------------------
 
 LOAD_FILE="load_${STRATEGY}_${TYPE}_${FORMAT}_${SCALE}.mk"
 SILENCE="2> /dev/null 1> /dev/null"
