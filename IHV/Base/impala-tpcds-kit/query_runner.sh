@@ -20,7 +20,7 @@ function timedate() {
 }
 
 function usageExit() {
-    echo "Usage: sh util_runtpcds.sh SCALE FORMAT"
+    echo "Usage: sh query_runner.sh SCALE FORMAT"
     echo "SCALE must be greater than 1"
     echo "FORMAT must be either 'orc' | 'parquet'"
     exit 1
@@ -41,7 +41,8 @@ function setupRun() {
 
     # --- DATABASE ---
     #DATABASE="pse_tpcds_${SCALE}_${FORMAT}"
-    DATABASE="tpcds_100g_parquet"
+    DATABASE="cdp_impala_tpcds_parquet_scale_${SCALE}"
+    #Ex:- DATABASE="cdp_impala_tpcds_parquet_scale_100"
 
     # --- CLOCK ---
     CLOCK_FILE="aaa_clocktime.txt"
